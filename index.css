@@ -24,7 +24,6 @@ h2 {
 
 h1 {
     font-size: 1.5rem;
-
 }
 
 h2 {
@@ -81,7 +80,6 @@ input {
     padding: 1em 2em;
     cursor: pointer;
     background-color: #bfbfbf;
-
 }
 
 .btn:hover,
@@ -89,7 +87,6 @@ input {
     background-color: #808080;
     opacity: 0.7;
     color: #fff;
-
 }
 
 /*------FOOTER------*/
@@ -97,8 +94,7 @@ input {
 footer {
     font-size: 0.75rem;
     position: absolute; 
-    bottom: 0;
-  
+    bottom: 0; 
 }
 
 /*------MEDIA QUERIES------*/
@@ -111,6 +107,7 @@ footer {
     h2 {
         font-size: 0.75rem;
     }
+    
     footer {
         font-size: 0.25rem;
         position: relative;

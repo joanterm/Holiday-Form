@@ -1,3 +1,5 @@
+//THIS CODE WILL GRAB USER'S FIRST NAME AND USE IT TO PERSONALIZE AN AUTOMATED RESPONSE AFTER SUBMIT
+
 let formCollector = document.getElementById("form-collector")
 let mainCover = document.getElementById("main-cover")
 
@@ -6,7 +8,7 @@ formCollector.addEventListener("submit", submitForm)
 function submitForm(event) {
     event.preventDefault() //it will prevent page from re-loading once you click register
     let myNewForm = new FormData(event.target) 
-    let userFirstName = myNewForm.get("first-name")
+    let userFirstName = myNewForm.get("first-name") //will grab user's name
 
     let updatedContent = `
 
